@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-list{
+    max-width:400px ;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around
+    ;
+}
+
+.todo-list{
+    padding: 10px;
+    font-size: larger;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+input{
+    border: 1px solid #007fff;
+    padding: 10px;
+    font-size: larger;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+form{
+    width: 100%;
+    display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+
+
+.todo-container label {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: large;
+}
+
+label div{
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+
+:checked + div{
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+
+
+
+
+
